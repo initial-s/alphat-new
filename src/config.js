@@ -34,8 +34,7 @@ const config = {
   LINE_SESSION_NAVER_URL: '/authct/v1/keys/naver',
   LINE_POST_CONTENT_URL: 'https://os.line.naver.jp/talk/m/upload.nhn',
   LINE_POST_CONTENT_URL_2ND: 'https://obs-sg.line-apps.com/talk/m/upload.nhn',
-  X_LINE_APP: 'DESKTOPMAC 10.10.2-YOSEMITE-x64 MAC 4.5.0',
-  //X_LINE_APP: 'CHROMEOS	1.4.13	Chrome_OS	1',
+  X_LINE_APP: 'CHROMEOS\t1.4.17\tChrome_OS\t1',
   ip: '127.0.0.1',
   version: '0.0.2',
   revision: 0,
@@ -43,7 +42,7 @@ const config = {
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'DESKTOP:WIN:10.10.2-YOSEMITE-x64(4.5.0)'
+    'User-Agent':'Mozilla/5.0'
   },
   YT_DL: 'http://www.saveitoffline.com/process/',
   tokenn: '',
