@@ -41,7 +41,7 @@ class LineAPI {
     path: this.config.LINE_HTTP_URL,
     https: true
   }) {
-    options.headers['X-Line-Application'] = 'DESKTOPMAC 10.10.2-YOSEMITE-x64 MAC 4.5.0';
+    options.headers['X-Line-Application'] = 'CHROMEOS\t1.4.17\tChrome_OS\t1';
 	if(this.axz === true){
 		options.headers['X-Line-Access'] = this.config.tokenn;
 		options.path = this.config.LINE_CHANNEL_PATH;
@@ -93,7 +93,7 @@ class LineAPI {
             this.options.headers['X-Line-Access'] = authToken;
             this.options.path = this.config.LINE_COMMAND_PATH;
             this.setTHttpClient(this.options);
-			this.options.headers['User-Agent'] = 'Line/6.0.0 iPad4,1 9.0.2';
+			this.options.headers['User-Agent'] = 'Mozilla/5.0';
 			this.axz = true;
 			this.setTHttpClient(this.options);
 			this.axz = false;
